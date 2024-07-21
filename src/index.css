@@ -24,10 +24,9 @@ a:hover {
 
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center; */
-  /* min-width: 320px;
-  min-height: 100vh; */
+  background-color: #8ede71 !important;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
@@ -65,4 +64,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.active {
+  border-bottom: solid 2px yellow !important;
+
+  width: fit-content;
+  padding: 25px;
 }

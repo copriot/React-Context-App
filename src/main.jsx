@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import { ProductProvider } from "./context/ProductContext.jsx";
 import { BasketProvider } from "./context/BasketContext.jsx";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,5 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <App />
       </ProductProvider>
     </BasketProvider>
+    <ToastContainer />
   </React.StrictMode>,
 );
